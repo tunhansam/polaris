@@ -10,7 +10,7 @@
     See https://github.com/cuth/postcss-pxtorem/blob/122649015322214f8e9d1ac852eb11c0791b634b/index.js#L52
   */
   // stylelint-disable-next-line length-zero-no-unit -- see above
-  --pc-choice-space-0: 0rem;
+  --pc-choice-space-0: 0;
   // Set responsive variables for bleed, used in padding and negative margin
   @include responsive-props(
     'choice',
